@@ -1,4 +1,4 @@
-package test;
+package test.smoke_test;
 
 import org.testng.annotations.Test;
 import pages.AddRecocredPage;

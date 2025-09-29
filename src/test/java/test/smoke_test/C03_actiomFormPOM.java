@@ -1,4 +1,4 @@
-package test;
+package test.smoke_test;
 
 import org.testng.annotations.Test;
 import pages.ActionClassPage;
@@ -7,7 +7,7 @@ import utilities.Driver;
 
 public class C03_actiomFormPOM {
 
-    @Test
+    @Test(threadPoolSize = 4, invocationCount = 5)
     void actionformtetst(){
         Driver.getDriver().get("https://claruswaysda.github.io/ActionsForm.html");
 

@@ -1,4 +1,4 @@
-package test;
+package test.smoke_test;
 
 
 import com.github.javafaker.Faker;
