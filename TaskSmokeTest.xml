@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite" verbose="5" parallel="false" time-out="120000">
+
+    <test verbose="5" preserve-order="true" name="smokeTest">
+
+        <classes>
+            <class name="task.smokeTest.HomePageTest"></class>
+            <class name="task.smokeTest.ProductPageTest"></class>
+            <class name="task.smokeTest.CheckoutPageTest"></class>
+        </classes>
+
+    </test>
+</suite>

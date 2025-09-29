@@ -21,7 +21,9 @@ public class FailingTestExample {
                     .enterPassword("wrongPass")
                     .clickLogin();
 
-            //فشل متعمد علشان نصور Screensho
+             // Screenshot
+            //فشل متعمد علشان نصور
+
             Assert.assertTrue(false, "Intentional failure for screenshot demo");
         }
     }
